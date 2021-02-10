@@ -1,5 +1,5 @@
 #!/bin/sh
-REPOADD = $1
+$1 = REPOADD
 git init
 # Second create a .gitignore file to exclude all files that doesn't need to be
 # included in the GIT project
